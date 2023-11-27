@@ -1,0 +1,28 @@
+{
+  "name": "yuadh-fecli",
+  "version": "0.0.5",
+  "type": "module",
+  "description": "前端应用脚手架CLI@yuadh",
+  "bin": {
+    "create": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.js --format esm --clean --target node16"
+  },
+  "files": [
+    "dist",
+    "templates/"
+  ],
+  "author": "yuadh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.12",
+    "meow": "^12.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2"
+  }
+}
