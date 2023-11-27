@@ -115,8 +115,8 @@ async function run() {
   console.log(chalk.bold(cliGradient(`
   应用${projectName}创建成功，使用以下命令启动~~~~
   cd ${projectName} ————进入目录
-  yarn ———— 安装依赖
-  yarn dev ————启动应用
+  npm i ———— 安装依赖
+  npm run dev ————启动应用
 `)))
   console.log(chalk.bold(cliGradient2(`>>>> Enjoy Coding`)))
 }
