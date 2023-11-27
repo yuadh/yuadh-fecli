@@ -10,9 +10,10 @@
 
 **⭐环境要求**
 
-- Node 版本 > 16
+- Node 版本 > 18.0.0 
+- yarn/pnpm 包管理工具，非必须
 
-因为是前端项目脚手架工具， 使用 JavaScript 编写的脚本程序。<br />所以启动必需安装 `Node`，而不使用 `shell`脚本编写<br />**quick-start：输入以下命令即可开始配置你的前端应用程序**
+因为是前端项目脚手架工具， 而使用 JavaScript 编写的脚本程序<br />前端启动必需安装 `Node`，所以不使用 `shell`脚本编写<br />**quick-start：输入以下命令即可开始配置你的前端应用程序**
 
 ```javascript
 npx yuadh-fecli create
@@ -21,6 +22,9 @@ npx yuadh-fecli create
 初次使用，会提示需要安装相关依赖。回车即可<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/33553715/1701072102679-33d2d9ab-ab70-45a4-b8ef-f53fc1bc33de.png#averageHue=%23171717&clientId=ueb087cc8-d789-4&from=paste&height=60&id=u2590ffdf&originHeight=60&originWidth=365&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1365&status=done&style=none&taskId=u4ee7d869-f7dd-462b-bbaa-86ba838d887&title=&width=365)<br />按照提示信息创建你的应用配置信息：<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/33553715/1701072172179-f0a454a0-13de-422f-aa21-f35601c66ff3.png#averageHue=%23202020&clientId=ueb087cc8-d789-4&from=paste&height=105&id=u9f199f4a&originHeight=105&originWidth=351&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4819&status=done&style=none&taskId=u6adbe2c0-afd4-441a-b13a-5766756eaea&title=&width=351)<br />正常情况下， 环境和配置无误的情况下就正常生成了你的应用程序<br />只需要和一般的前端项目一样安装依赖，启动项目即可
 
 ```javascript
+npm install #安装依赖
+npm run dev #启动项目
+#### 强烈推荐使用 yarn/pnpm 包管理工具
 yarn #安装依赖    
 yarn dev #启动项目
 ```

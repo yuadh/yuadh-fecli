@@ -38,9 +38,7 @@ async function run() {
   })
   console.log(
     chalk.bold(
-      cliGradient(`
->>> 欢迎使用前端脚手架工具${pkg.version}@yuadh
-  `)
+      cliGradient(`\n>>> 欢迎使用前端脚手架工具${pkg.version}@yuadh\n`)
     )
   )
   if (flags.help)
@@ -108,17 +106,17 @@ async function run() {
       fs.mkdirSync(projectDir);
     }
   }
-  console.log(chalk.bold(cliGradient2("\n>>> 真正生成配置的应用....")));
+  console.log(chalk.bold(cliGradient2("\n>>> 正在生成配置好的应用....")));
   // const project
   generat_template(templateDir, projectDir, flags)
   const projectName = path.basename(projectDir);
   console.log(chalk.bold(cliGradient(`
   应用${projectName}创建成功，使用以下命令启动~~~~
-  cd ${projectName} ————进入目录
-  yarn ———— 安装依赖
-  yarn dev ————启动应用
-`)))
-  console.log(chalk.bold(cliGradient2(`>>>> Enjoy Coding`)))
+  cd ${projectName}    ————进入目录
+  npm install    ————安装依赖
+  npm run dev    ————启动应用
+  推荐使用速度更快的 yarn/pnpm 包管理工具`)))
+  console.log(chalk.bold(cliGradient2(`\n>>>> Enjoy Coding`)))
 }
 
 /**
