@@ -52,4 +52,7 @@ yarn dev #启动项目
   <a name="zMfhl"></a>
 
 ## 开源地址
+- [GitHub](https://github.com/yuadh/yuadh-fecli)
+
+- [npm](https://www.npmjs.com/package/yuadh-fecli)
 
