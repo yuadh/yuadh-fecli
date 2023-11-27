@@ -1,6 +1,6 @@
 {
   "name": "yuadh-fecli",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "type": "module",
   "description": "前端应用脚手架CLI@yuadh",
   "bin": {
