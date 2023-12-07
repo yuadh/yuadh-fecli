@@ -1,1 +1,1 @@
-template-cli
+template
